@@ -8,7 +8,7 @@ import { points3 } from './gradientHeart/back';
 const scene = new THREE.Scene();
 
 // PerspectiveCamera: FOV, 너비 높이 비율, near, far
-const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 500);
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 500);
 camera.lookAt(0, 0, 0);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -40,10 +40,6 @@ camera.position.z = 100; // => camera.position.set(0, 0, 100);
 
 const animate = function () {
   requestAnimationFrame(animate);
-
-  // line.rotation.x += 0.01;
-  // line2.rotation.x += 0.01;
-  // line3.rotation.x += 0.01;
 
   line.rotation.y += 0.01;
   line2.rotation.y += 0.01;
