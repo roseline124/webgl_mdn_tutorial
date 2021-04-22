@@ -82,13 +82,13 @@ const leftColors = [
   1, 0, 0.3,
 ]
 
-export const points2 = [
+export const pointsFront = [
   ...right,
   ...left
 ];
 
 // rgb btw 0 and 1
-export const colors2 = new Float32Array([
+export const colorsFront = new Float32Array([
   ...rightColors,
   ...leftColors,
 ]);

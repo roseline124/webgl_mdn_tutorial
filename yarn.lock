@@ -19,6 +19,13 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@three-ts/orbit-controls@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@three-ts/orbit-controls/-/orbit-controls-1.4.7.tgz#5bfda19bfb148ac0e494bd2ae8e9e5fcf640fa2a"
+  integrity sha512-1OVZnc2VTHCoHberL50LBbltjnqVpOBhmuJwKPqzn6sThQwvVU1E13cpuJ2SWWOMoMLF+4hE3ICi4KHsZA/CJw==
+  dependencies:
+    three "^0.126.1"
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.0.tgz#4792816e31119ebd506902a482caec4951fabd86"
@@ -3665,6 +3672,11 @@ terser@^5.5.1:
     commander "^2.20.0"
     source-map "~0.7.2"
     source-map-support "~0.5.19"
+
+three@^0.126.1:
+  version "0.126.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.126.1.tgz#cf4e4e52060fd952f6f0d5440cbd422c66bc4be7"
+  integrity sha512-eOEXnZeE1FDV0XgL1u08auIP13jxdN9LQBAEmlErYzMxtIIfuGIAZbijOyookALUhqVzVOx0Tywj6n192VM+nQ==
 
 three@^0.127.0:
   version "0.127.0"
